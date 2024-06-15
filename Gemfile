@@ -43,11 +43,15 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 gem "guard"
 
-gem 'bootstrap-sass'
+# gem 'bootstrap-sass'
+
+gem 'bootstrap'
 
 gem 'rails-controller-testing'
 
 gem 'bcrypt'
+
+gem "sassc-rails"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
